@@ -170,6 +170,17 @@ describe("quotzzy", function() {
                 });
             });
 
+            it("should respond with error when called with invalid language", function(done) {
+                quotzzy.getQuote({
+                    lang: "jp"
+                }, function(error, quote) {
+                    assert.throws(function() {
+                        throw error;
+                    }, Error);
+                    done();
+                });
+            });
+
             it("should fail on calling #getQuote() without arguments", function() {
                 assert.throws(function() {
                     quotzzy.getQuote();

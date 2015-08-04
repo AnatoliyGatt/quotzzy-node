@@ -170,7 +170,7 @@ describe("quotzzy", function() {
                 });
             });
 
-            it("should respond with error when called with invalid language", function(done) {
+            it("should respond with error when called with invalid lang", function(done) {
                 quotzzy.getQuote({
                     lang: "jp"
                 }, function(error, quote) {
@@ -181,13 +181,13 @@ describe("quotzzy", function() {
                 });
             });
 
-            it("should fail on calling #getQuote() without arguments", function() {
+            it("should fail when called without arguments", function() {
                 assert.throws(function() {
                     quotzzy.getQuote();
                 }, Error);
             });
 
-            it("should fail on calling #getQuote() with options only", function() {
+            it("should fail when called with options only", function() {
                 assert.throws(function() {
                     quotzzy.getQuote({
                         lang: "ru",
@@ -196,7 +196,7 @@ describe("quotzzy", function() {
                 }, Error);
             });
 
-            it("should not override #getQuote()", function() {
+            it("should not be overridden", function() {
                 quotzzy.getQuote = function() {
                     return "#getQuote()";
                 };

@@ -3,11 +3,15 @@ var quotzzy = require("../lib/quotzzy")();
 
 describe("quotzzy", function() {
     describe("init", function() {
-        var defaultRequestOptions = {
-            hostname: "www.quotzzy.co",
-            port: 80,
-            basePath: "/api"
-        };
+        var defaultRequestOptions = {};
+
+        before(function() {
+            defaultRequestOptions = {
+                hostname: "www.quotzzy.co",
+                port: 80,
+                basePath: "/api"
+            };
+        });
 
         it("should have correct default request options", function() {
             assert.deepEqual(quotzzy.defaultRequestOptions, defaultRequestOptions, "default request options should have correct initial property values");

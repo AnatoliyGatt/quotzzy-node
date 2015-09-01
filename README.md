@@ -5,6 +5,7 @@ An asynchronous client library for Quotzzy [API](http://www.quotzzy.co/api/).
 [![NPM Package Version][npm-package-version-badge]][npm-package-url]
 [![NPM Package License][npm-package-license-badge]][npm-package-license-url]
 [![NPM Package Downloads][npm-package-downloads-badge]][npm-package-url]
+
 [![Travis CI Build Status][travis-ci-build-status-badge]][travis-ci-build-status-page-url]
 
 [![NPM Package Statistics][npm-package-statistics-badge]][npm-package-url]

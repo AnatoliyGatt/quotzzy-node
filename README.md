@@ -11,6 +11,7 @@ An asynchronous client library for Quotzzy [API](http://www.quotzzy.co/api/).
 [![Node Version][node-version-badge]][node-downloads-page-url]
 [![Travis CI Build Status][travis-ci-build-status-badge]][travis-ci-build-status-page-url]
 [![Code Climate Status][code-climate-status-badge]][code-climate-status-page-url]
+[![Inch CI Documentation Coverage Status][inch-ci-documentation-coverage-status-badge]][inch-ci-documentation-coverage-status-page-url]
 
 [![NPM Package Statistics][npm-package-statistics-badge]][npm-package-url]
 
@@ -130,5 +131,8 @@ Distributed under the [MIT License](LICENSE).
 
 [code-climate-status-badge]: https://img.shields.io/codeclimate/github/AnatoliyGatt/quotzzy-node.svg?style=flat-square
 [code-climate-status-page-url]: https://codeclimate.com/github/AnatoliyGatt/quotzzy-node
+
+[inch-ci-documentation-coverage-status-badge]: https://inch-ci.org/github/AnatoliyGatt/quotzzy-node.svg?style=flat-square
+[inch-ci-documentation-coverage-status-page-url]: https://inch-ci.org/github/AnatoliyGatt/quotzzy-node
 
 [npm-package-statistics-badge]: https://nodei.co/npm/quotzzy-node.png?downloads=true&downloadRank=true&stars=true

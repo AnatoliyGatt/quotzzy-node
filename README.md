@@ -1,4 +1,4 @@
-# Quotzzy for Node.js
+![quotzzy-node Logo][logo]
 
 An asynchronous client library for Quotzzy [API](http://www.quotzzy.co/api/).
 
@@ -108,6 +108,8 @@ $ npm test
 ## License
 
 Distributed under the [MIT License](LICENSE).
+
+[logo]: https://cldup.com/aOQeC4InDh.png
 
 [npm-package-url]: https://npmjs.org/package/quotzzy-node
 

@@ -16,8 +16,10 @@
 * Add dependencies badge to README.md
 * Add devDependencies badge to README.md
 * Change badges style from flat to flat-square in README.md
-* Update forismatic.js custom error messages
-* Update forismatic.js callback calls in case of error
+* Update quotzzy.js custom error messages
+* Update quotzzy.js callback calls in case of error
+* Update quotzzy.js documentation comments
+* Update quotzzy.js tests
 
 1.0.2 / 2015-08-04
 ==================

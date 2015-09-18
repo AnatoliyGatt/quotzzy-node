@@ -1,3 +1,12 @@
+1.0.5 / 2015-09-18
+==================
+
+* Fix critical bug that makes getQuote() always returning quote object as undefined
+* [CodeClimate] Fix 'Confusing use of negation operator' in quotzzy.js
+* Add npm (>= 1.2.14) to engines in package.json
+* Fix node-download-page-url in README.md
+* Change node version from (>= 0.10.x) to (>= 0.10.0) in package.json
+
 1.0.4 / 2015-09-12
 ==================
 

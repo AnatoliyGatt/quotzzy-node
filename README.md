@@ -25,7 +25,7 @@ An asynchronous client library for Quotzzy [API](http://www.quotzzy.co/api/).
 The quickest way to get started is by executing following code:
 
 ```javascript
-var quotzzy = require("quotzzy-node")();
+var quotzzy = require('quotzzy-node')();
 
 quotzzy.getQuote(function(error, quote) {
     if(!error) {
@@ -38,12 +38,12 @@ quotzzy.getQuote(function(error, quote) {
 
 If everything went well, you'll see something like this in your console:
 
-```json
+```javascript
 {
-    "text": "Ignorance never settle a question.",
-    "author": {
-        "name": "Benjamin Disraeli",
-        "wiki": "http://en.wikipedia.com/wiki/Benjamin%20Disraeli"
+    text: 'Ignorance never settle a question.',
+    author: {
+        name: 'Benjamin Disraeli',
+        wiki: 'http://en.wikipedia.com/wiki/Benjamin%20Disraeli'
     }
 }
 ```
@@ -66,7 +66,7 @@ Requests quote in Russian with manually set key.
 
 ```javascript
 quotzzy.getQuote({
-    lang: "ru",
+    lang: 'ru',
     key: 123456
 }, function(error, quote) {
     if(!error) {
@@ -81,7 +81,7 @@ Requests quote in English with auto-generated key.
 
 ```javascript
 quotzzy.getQuote({
-    lang: "en",
+    lang: 'en',
     generateKey: true
 }, function(error, quote) {
     if(!error) {

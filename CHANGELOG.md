@@ -1,3 +1,17 @@
+1.0.6 / 2015-09-30
+==================
+
+* Fix fallthrough in case when callback is called within catch block
+* Add author.url to package.json
+* Replace " with ' in definitions of all strings in README.md code samples
+* Replace " with ' in definitions of all strings in index.js
+* Replace " with ' in definitions of all strings in quotzzy.js tests
+* Replace " with ' in definitions of all strings in quotzzy.js
+* Update .travis.yml to run tests against node v4.0.0
+* Update .travis.yml to run tests against all major versions of iojs from 1.0.0 to 3.0.0
+* Add iojs (>= 1.0.0) to engines in package.json
+* [CodeClimate] Fix 'parsedResponse is used out of scope' and 'parsedResponse is defined but never used' in quotzzy.js
+
 1.0.5 / 2015-09-18
 ==================
 

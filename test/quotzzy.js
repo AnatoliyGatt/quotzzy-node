@@ -39,7 +39,7 @@ describe('quotzzy', function() {
 
             it('should respond with valid quote object, requested with no options', function(done) {
                 quotzzy.getQuote(function(error, quote) {
-                    if(!error) {
+                    if (!error) {
                         validateQuote(quote);
                     } else {
                         assert.throws(function() {

@@ -84,7 +84,7 @@ describe('quotzzy', function() {
                 quotzzy.getQuote({
                     lang: 'en'
                 }, function(error, quote) {
-                    if(!error) {
+                    if (!error) {
                         validateQuote(quote);
                     } else {
                         assert.throws(function() {
@@ -100,7 +100,7 @@ describe('quotzzy', function() {
                     lang: 'en',
                     key: 123456
                 }, function(error, quote) {
-                    if(!error) {
+                    if (!error) {
                         validateQuote(quote);
                     } else {
                         assert.throws(function() {
@@ -116,7 +116,7 @@ describe('quotzzy', function() {
                     lang: 'en',
                     generateKey: true
                 }, function(error, quote) {
-                    if(!error) {
+                    if (!error) {
                         validateQuote(quote);
                     } else {
                         assert.throws(function() {
@@ -131,7 +131,7 @@ describe('quotzzy', function() {
                 quotzzy.getQuote({
                     lang: 'ru'
                 }, function(error, quote) {
-                    if(!error) {
+                    if (!error) {
                         validateQuote(quote);
                     } else {
                         assert.throws(function() {
@@ -147,7 +147,7 @@ describe('quotzzy', function() {
                     lang: 'ru',
                     key: 123456
                 }, function(error, quote) {
-                    if(!error) {
+                    if (!error) {
                         validateQuote(quote);
                     } else {
                         assert.throws(function() {
@@ -163,7 +163,7 @@ describe('quotzzy', function() {
                     lang: 'ru',
                     generateKey: true
                 }, function(error, quote) {
-                    if(!error) {
+                    if (!error) {
                         validateQuote(quote);
                     } else {
                         assert.throws(function() {

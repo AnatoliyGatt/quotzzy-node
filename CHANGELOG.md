@@ -1,3 +1,20 @@
+1.0.7 / 2015-10-31
+==================
+
+* Fix anonymous functions declaration coding style in quotzzy.js tests
+* Fix anonymous functions declaration coding style in quotzzy.js
+* Fix 'if-else statements' coding style in quotzzy.js tests
+* Fix 'try-catch statement' coding style in quotzzy.js
+* Fix 'if statement' coding style in quotzzy.js
+* Fix 'if-else statements' coding style in quotzzy.js
+* Update dev dependencies
+* Update .travis.yml to run tests against node v4.2.0
+* Remove manual deletion script of coverage directory in .travis.yml
+* Replace unencrypted CodeClimate repo_token with encrypted one in .travis.yml
+* Update quotzzy.js tests
+* Update .travis.yml to run tests against node v4.1.0
+* Update dependencies
+
 1.0.6 / 2015-09-30
 ==================
 

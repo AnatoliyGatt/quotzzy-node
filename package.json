@@ -4,6 +4,7 @@
   "description": "An asynchronous client library for Quotzzy API.",
   "keywords": [
     "quotzzy",
+    "random",
     "quotes",
     "json",
     "api",

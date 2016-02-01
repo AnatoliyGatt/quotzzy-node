@@ -68,7 +68,7 @@ Requests quote in Russian with manually set key.
 quotzzy.getQuote({
     lang: 'ru',
     key: 123456
-}, function(error, quote) {
+}, function (error, quote) {
     if(!error) {
         console.log(quote);
     } else {
@@ -83,7 +83,7 @@ Requests quote in English with auto-generated key.
 quotzzy.getQuote({
     lang: 'en',
     generateKey: true
-}, function(error, quote) {
+}, function (error, quote) {
     if(!error) {
         console.log(quote);
     } else {

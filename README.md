@@ -27,7 +27,7 @@ The quickest way to get started is by executing following code:
 ```javascript
 var quotzzy = require('quotzzy-node')();
 
-quotzzy.getQuote(function(error, quote) {
+quotzzy.getQuote(function (error, quote) {
     if(!error) {
         console.log(quote);
     } else {

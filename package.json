@@ -1,6 +1,6 @@
 {
   "name": "quotzzy-node",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "An asynchronous client library for Quotzzy API.",
   "keywords": [
     "quotzzy",

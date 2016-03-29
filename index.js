@@ -11,8 +11,8 @@
 
 /**
  * @public
- * @description Expose function to initialize unchangeable instance of Quotzzy.
- * @returns {Function} - Function to initialize unchangeable instance of Quotzzy.
+ * @description Expose function to initialize instance of Quotzzy.
+ * @returns {Function} - Function to initialize instance of Quotzzy.
  */
 
 module.exports = require('./lib/quotzzy');

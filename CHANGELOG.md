@@ -1,3 +1,16 @@
+1.0.9 / 2016-03-29
+==================
+
+* Remove deep-freeze-node as dependency in package.json
+* Update index.js documentation comments
+* Fix quotzzy.js tests
+* Update quotzzy.js tests
+* Remove require of deep-freeze-node in quotzzy.js
+* Update quotzzy.js documentation comments
+* Expose unfrozen instance of Quotzzy in quotzzy.js
+* Update dev dependencies
+* Update dependencies
+
 1.0.8 / 2016-03-04
 ==================
 

@@ -189,16 +189,6 @@ describe('quotzzy', function () {
                     });
                 }, Error);
             });
-
-            it('should not be overridden', function () {
-                quotzzy.getQuote = function () {
-                    return '#getQuote()';
-                };
-
-                assert.throws(function () {
-                    assert.notEqual(quotzzy.getQuote(), '#getQuote()', '#getQuote() should not be overridden');
-                }, Error);
-            });
         });
     });
 });

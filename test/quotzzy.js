@@ -18,7 +18,7 @@ describe('quotzzy', function () {
         });
 
         it('should not override default request options', function () {
-            quotzzy.defaultSettings = {
+            quotzzy.defaultRequestOptions = {
                 hostname: 'quotzzy.co',
                 port: 3000,
                 basePath: '/api/1.0/'

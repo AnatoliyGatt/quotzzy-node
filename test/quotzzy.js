@@ -16,16 +16,6 @@ describe('quotzzy', function () {
         it('should have correct default request options', function () {
             assert.deepEqual(quotzzy.defaultRequestOptions, defaultRequestOptions, 'default request options should have correct initial property values');
         });
-
-        it('should not override default request options', function () {
-            quotzzy.defaultRequestOptions = {
-                hostname: 'quotzzy.co',
-                port: 3000,
-                basePath: '/api/1.0/'
-            };
-
-            assert.deepEqual(quotzzy.defaultRequestOptions, defaultRequestOptions, 'default request options should not be overridden');
-        });
     });
 
     describe('functions', function () {

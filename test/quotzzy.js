@@ -42,7 +42,7 @@ describe('quotzzy', function () {
                     key: 123456
                 }, function(error, quote) {
                     if (error) {
-                        throw error;
+                        return done(error);
                     }
                     validateQuote(quote);
                     done();
@@ -54,7 +54,7 @@ describe('quotzzy', function () {
                     generateKey: true
                 }, function (error, quote) {
                     if (error) {
-                        throw error;
+                        return done(error);
                     }
                     validateQuote(quote);
                     done();
@@ -66,7 +66,7 @@ describe('quotzzy', function () {
                     lang: 'en'
                 }, function (error, quote) {
                     if (error) {
-                        throw error;
+                        return done(error);
                     }
                     validateQuote(quote);
                     done();
@@ -79,7 +79,7 @@ describe('quotzzy', function () {
                     key: 123456
                 }, function (error, quote) {
                     if (error) {
-                        throw error;
+                        return done(error);
                     }
                     validateQuote(quote);
                     done();
@@ -92,7 +92,7 @@ describe('quotzzy', function () {
                     generateKey: true
                 }, function (error, quote) {
                     if (error) {
-                        throw error;
+                        return done(error);
                     }
                     validateQuote(quote);
                     done();
@@ -104,7 +104,7 @@ describe('quotzzy', function () {
                     lang: 'ru'
                 }, function (error, quote) {
                     if (error) {
-                        throw error;
+                        return done(error);
                     }
                     validateQuote(quote);
                     done();
@@ -117,7 +117,7 @@ describe('quotzzy', function () {
                     key: 123456
                 }, function (error, quote) {
                     if (error) {
-                        throw error;
+                        return done(error);
                     }
                     validateQuote(quote);
                     done();
@@ -130,7 +130,7 @@ describe('quotzzy', function () {
                     generateKey: true
                 }, function (error, quote) {
                     if (error) {
-                        throw error;
+                        return done(error);
                     }
                     validateQuote(quote);
                     done();

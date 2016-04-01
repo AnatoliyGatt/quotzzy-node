@@ -30,7 +30,7 @@ describe('quotzzy', function () {
             it('should respond with valid quote object, requested with no options', function (done) {
                 quotzzy.getQuote(function (error, quote) {
                     if (error) {
-                        throw error;
+                        return done(error);
                     }
                     validateQuote(quote);
                     done();

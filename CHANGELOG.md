@@ -1,3 +1,9 @@
+1.1.0 / 2016-04-01
+==================
+
+* Replace 'throw error' in asynchronous test cases with 'done(error)' in quotzzy.js tests
+* Remove dependencies badge from README.md
+
 1.0.9 / 2016-03-29
 ==================
 

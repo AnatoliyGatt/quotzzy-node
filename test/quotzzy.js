@@ -23,7 +23,7 @@ describe('quotzzy', function () {
             function validateQuote(quote) {
                 assert.ok(quote, 'quote should not be undefined, null or empty');
                 assert.ok(quote.text, 'quote.text should not be undefined, null or empty');
-                assert.notEqual(quote.author, {}, 'quote.author should not be empty');
+                assert.notDeepEqual(quote.author, {}, 'quote.author should not be empty');
             }
 
             it('should respond with valid quote object, requested with no options', function (done) {

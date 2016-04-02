@@ -21,9 +21,8 @@ describe('quotzzy', function () {
     describe('functions', function () {
         describe('#getQuote()', function () {
             function validateQuote(quote) {
-                assert.notEqual(quote, undefined, 'quote should not be undefined');
-                assert.notEqual(quote.text, undefined, 'quote.text should not be undefined');
-                assert.notEqual(quote.text, '', 'quote.text should not be empty');
+                assert.ok(quote, 'quote should not be undefined, null or empty');
+                assert.ok(quote.text, 'quote.text should not be undefined, null or empty');
                 assert.notEqual(quote.author, {}, 'quote.author should not be empty');
             }
 
